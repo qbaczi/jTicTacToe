@@ -13,8 +13,11 @@ public class Main {
 
 
         log.info("{} {}",person,"test");
-        
 
+//utworzyc kolekcje stringow np. aaaaaaaa x 10000000
+
+        //zrobic heap dump'a
+        //pokazac mi go
 
 
     }
