@@ -13,8 +13,8 @@ public class Main {
 
         ViewBoard.showBoard(new Board());
 
-        //TODO 1: klasa player z polami typ X/O oraz nazwa
-        //TODO 2: klasa logika = sprawdzajaca czy ktos wygral (ify)
+
+
 
     }
 }
