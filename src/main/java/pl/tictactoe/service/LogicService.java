@@ -9,7 +9,7 @@ import java.util.Optional;
 public class LogicService {
 
 
-    public Optional<Object> check(Board board) {
+    public static Optional<Object> check(Board board) {
         Status[][] t = board.board;
 
         for (int i = 0; i < t.length; i++) {
@@ -46,13 +46,13 @@ public class LogicService {
         return Optional.empty();
     }
 
-    public boolean isDraw(Board board) {
+    public static boolean isDraw(Board board) {
         if(isFull(board) && !check(board).isPresent())
             return true;
         else return false;
     }
 
-    public boolean isFull(Board board) {
+    public static boolean isFull(Board board) {
         Status[][] t = board.board;
 
         for (int i = 0; i < t.length; i++) {

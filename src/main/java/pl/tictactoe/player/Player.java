@@ -1,25 +1,24 @@
 package pl.tictactoe.player;
 
 
-import pl.tictactoe.board.Status;
+import pl.tictactoe.board.TypeTicTacToe;
 
 public class Player {
 
-    public Status status;
+    public TypeTicTacToe type;
     public String nick;
 
-    public Player(Status status, String nick) {
-        this.status = status;
-        this.nick = nick;
+    public Player(TypeTicTacToe type) {
+        this.type = type;
     }
 
 
-    public Status getStatus() {
-        return status;
+    public TypeTicTacToe getType() {
+        return type;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setType(TypeTicTacToe type) {
+        this.type = type;
     }
 
     public String getNick() {
